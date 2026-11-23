@@ -1,16 +1,13 @@
-## Phần đã nhập
+## Nội dung thay đổi
 
-- Phần số:
-- Người nhập:
-- Nguồn: bản ZIP mã nguồn nhóm đã chốt
+Mô tả phần bổ sung hoặc chỉnh sửa và lý do.
 
-## Thay đổi
+## Kiểm tra
 
-- [ ] Chỉ nhập file được phân công, giữ nguyên đường dẫn
-- [ ] Không tải ZIP, JAR, target hoặc node_modules
-- [ ] Không chép đè README và .gitignore hướng dẫn
-- [ ] Đã ghi rõ nếu có sửa code ngoài việc nhập file
+- Cách kiểm tra:
+- Kết quả:
+- Phần chưa kiểm tra hoặc phụ thuộc còn thiếu:
 
-## Kiểm tra thực tế
+## Liên quan
 
-Ghi đã kiểm tra gì. Nếu còn thiếu phần khác, ghi chưa build/test toàn bộ. Không dùng log cũ để khẳng định bản ghép đã đạt.
+Issue hoặc tài liệu liên quan nếu có.

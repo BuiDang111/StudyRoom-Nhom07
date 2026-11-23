@@ -1,26 +1,32 @@
-# StudyRoom Nhóm 07
+# StudyRoom
 
-Hệ thống quản lý đặt phòng học nhóm trong trường. Java Spring Boot, React và lưu trữ JSON.
+Hệ thống quản lý đặt phòng học nhóm trong trường — Bài tập lớn Java OOP, Nhóm 07.
 
-## Trạng thái repository
+## Chức năng
 
-Repo mới có cấu trúc và hướng dẫn tiếp nhận mã nguồn. Chưa nhập mã ứng dụng, chưa chạy build hoặc test trên repo này. Các phần có thể chưa biên dịch được cho đến khi đủ 5 phần.
+- Tra cứu phòng theo mã, loại phòng và sức chứa.
+- Xem lịch trống, đặt phòng và theo dõi lịch cá nhân.
+- Hủy lịch đặt và lưu trạng thái hủy.
+- Kiểm tra trùng lịch, sức chứa, trạng thái phòng và hạn mức 4 giờ/ngày/sinh viên.
+- Tính phí theo loại phòng.
 
-## Bắt đầu ở đây
+## Công nghệ
 
-1. Đọc [chia 5 phần](docs/CHIA_5_PHAN.md).
-2. Đọc [hướng dẫn tải code](docs/HUONG_DAN_UP_CODE.md).
-3. Xem [danh sách file chính xác](docs/DANH_SACH_FILE.md).
-4. Ghi tên người nhận từng phần trong bảng phân công trước khi tải.
+- Backend: Java 17, Spring Boot.
+- Frontend: React, Vite.
+- Lưu trữ: file JSON.
+- Kiểm thử: JUnit 5.
 
-Code đặt trực tiếp vào backend/ và frontend/ ở gốc repo. Không lồng thêm thư mục StudyRoom/.
+## Cấu trúc
 
-## Nhánh
+| Thư mục | Nội dung |
+|---|---|
+| backend/ | Mã nguồn Java, cấu hình, dữ liệu và kiểm thử |
+| frontend/ | Mã nguồn giao diện và tài nguyên |
+| docs/ | Kiến trúc, sơ đồ lớp và tài liệu kỹ thuật |
 
-main là bản ghép. Có 5 nhánh mang tên thành viên để tải file và tạo Pull Request. Tên nhánh không phải tên tài khoản GitHub và không tự cấp quyền truy cập.
+Xem [kiến trúc hệ thống](docs/KIEN_TRUC.md).
 
-## Hoàn tất
+## Trạng thái
 
-Sau khi merge đủ 5 phần: kiểm tra danh sách file, build frontend/backend, chạy test và chạy thử đặt/hủy. Log test có sẵn trong ZIP là kết quả lịch sử, chưa phải kết quả của repo sau khi ghép.
-
-Việc nhập code có sẵn được ghi nhận là công việc nhập và tích hợp mã nguồn; mô tả đóng góp theo việc thực tế.
+Repository đang được bổ sung mã nguồn. Hướng dẫn build và chạy sẽ được hoàn thiện khi tích hợp đầy đủ backend và frontend.
