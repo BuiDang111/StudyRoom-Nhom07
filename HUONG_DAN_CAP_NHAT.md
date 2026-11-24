@@ -1,4 +1,6 @@
 # Bản cập nhật 5 thành viên
+
+Nếu tải source từ GitHub, chạy BUILD_WINDOWS.bat thành công trước để tạo runtime/studyroom.jar và runtime/data. Các bước cập nhật bên dưới yêu cầu bộ runtime đã có đầy đủ; không áp dụng trực tiếp cho source chưa build.
 Đã thêm đúng tên/MSSV; lớp chưa cung cấp nên để “Chưa cập nhật”, số điện thoại/email là dữ liệu mẫu.
 
 ## Giữ lịch đang dùng
