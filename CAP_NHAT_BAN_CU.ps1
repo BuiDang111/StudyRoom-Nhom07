@@ -1,4 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'
+$sourceJar = Join-Path $PSScriptRoot 'runtime/studyroom.jar'
+$sourceStudents = Join-Path $PSScriptRoot 'runtime/data/students.json'
+if (!(Test-Path $sourceJar) -or !(Test-Path $sourceStudents)) { throw 'Hay build ban moi thanh cong truoc khi cap nhat ban cu.' }
 Write-Host 'Hay tat cua so Java cua ban cu truoc khi cap nhat.'
 $oldRoot = (Read-Host 'Dan duong dan thu muc StudyRoom CU (khong phai thu muc ban moi)').Trim().Trim('"')
 $runtime = Join-Path $oldRoot 'runtime'
